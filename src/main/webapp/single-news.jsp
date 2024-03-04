@@ -43,71 +43,7 @@
     <!--PreLoader Ends-->
 	
 	<!-- header -->
-	<div class="top-header-area" id="sticker">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12 col-sm-12 text-center">
-					<div class="main-menu-wrap">
-						<!-- logo -->
-						<div class="site-logo">
-							<a href="index.html">
-								<img src="assets/img/logo.png" alt="">
-							</a>
-						</div>
-						<!-- logo -->
-
-						<!-- menu start -->
-						<nav class="main-menu">
-							<ul>
-								<li class="current-list-item"><a href="#">Home</a>
-									<ul class="sub-menu">
-										<li><a href="index.html">Static Home</a></li>
-										<li><a href="index_2.html">Slider Home</a></li>
-									</ul>
-								</li>
-								<li><a href="about.html">About</a></li>
-								<li><a href="#">Pages</a>
-									<ul class="sub-menu">
-										<li><a href="404.html">404 page</a></li>
-										<li><a href="about.html">About</a></li>
-										<li><a href="cart.html">Cart</a></li>
-										<li><a href="checkout.html">Check Out</a></li>
-										<li><a href="contact.html">Contact</a></li>
-										<li><a href="news.html">News</a></li>
-										<li><a href="shop.html">Shop</a></li>
-									</ul>
-								</li>
-								<li><a href="news.html">News</a>
-									<ul class="sub-menu">
-										<li><a href="news.html">News</a></li>
-										<li><a href="single-news.html">Single News</a></li>
-									</ul>
-								</li>
-								<li><a href="contact.html">Contact</a></li>
-								<li><a href="shop.html">Shop</a>
-									<ul class="sub-menu">
-										<li><a href="shop.html">Shop</a></li>
-										<li><a href="checkout.html">Check Out</a></li>
-										<li><a href="single-product.html">Single Product</a></li>
-										<li><a href="cart.html">Cart</a></li>
-									</ul>
-								</li>
-								<li>
-									<div class="header-icons">
-										<a class="shopping-cart" href="cart.html"><i class="fas fa-shopping-cart"></i></a>
-										<a class="mobile-hide search-bar-icon" href="#"><i class="fas fa-search"></i></a>
-									</div>
-								</li>
-							</ul>
-						</nav>
-						<a class="mobile-show search-bar-icon" href="#"><i class="fas fa-search"></i></a>
-						<div class="mobile-menu"></div>
-						<!-- menu end -->
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+	<jsp:include page="menu.jsp"></jsp:include>
 	<!-- end header -->
 
 	<!-- search area -->
@@ -199,7 +135,7 @@
 						<div class="comment-template">
 							<h4>Leave a comment</h4>
 							<p>If you have a comment dont feel hesitate to send us your opinion.</p>
-							<form action="index.html">
+							<form action="index.jsp">
 								<p>
 									<input type="text" placeholder="Your Name">
 									<input type="email" placeholder="Your Email">
@@ -215,32 +151,32 @@
 						<div class="recent-posts">
 							<h4>Recent Posts</h4>
 							<ul>
-								<li><a href="single-news.html">You will vainly look for fruit on it in autumn.</a></li>
-								<li><a href="single-news.html">A man's worth has its season, like tomato.</a></li>
-								<li><a href="single-news.html">Good thoughts bear good fresh juicy fruit.</a></li>
-								<li><a href="single-news.html">Fall in love with the fresh orange</a></li>
-								<li><a href="single-news.html">Why the berries always look delecious</a></li>
+								<li><a href="single-news.jsp">You will vainly look for fruit on it in autumn.</a></li>
+								<li><a href="single-news.jsp">A man's worth has its season, like tomato.</a></li>
+								<li><a href="single-news.jsp">Good thoughts bear good fresh juicy fruit.</a></li>
+								<li><a href="single-news.jsp">Fall in love with the fresh orange</a></li>
+								<li><a href="single-news.jsp">Why the berries always look delecious</a></li>
 							</ul>
 						</div>
 						<div class="archive-posts">
 							<h4>Archive Posts</h4>
 							<ul>
-								<li><a href="single-news.html">JAN 2019 (5)</a></li>
-								<li><a href="single-news.html">FEB 2019 (3)</a></li>
-								<li><a href="single-news.html">MAY 2019 (4)</a></li>
-								<li><a href="single-news.html">SEP 2019 (4)</a></li>
-								<li><a href="single-news.html">DEC 2019 (3)</a></li>
+								<li><a href="single-news.jsp">JAN 2019 (5)</a></li>
+								<li><a href="single-news.jsp">FEB 2019 (3)</a></li>
+								<li><a href="single-news.jsp">MAY 2019 (4)</a></li>
+								<li><a href="single-news.jsp">SEP 2019 (4)</a></li>
+								<li><a href="single-news.jsp">DEC 2019 (3)</a></li>
 							</ul>
 						</div>
 						<div class="tag-section">
 							<h4>Tags</h4>
 							<ul>
-								<li><a href="single-news.html">Apple</a></li>
-								<li><a href="single-news.html">Strawberry</a></li>
-								<li><a href="single-news.html">BErry</a></li>
-								<li><a href="single-news.html">Orange</a></li>
-								<li><a href="single-news.html">Lemon</a></li>
-								<li><a href="single-news.html">Banana</a></li>
+								<li><a href="single-news.jsp">Apple</a></li>
+								<li><a href="single-news.jsp">Strawberry</a></li>
+								<li><a href="single-news.jsp">BErry</a></li>
+								<li><a href="single-news.jsp">Orange</a></li>
+								<li><a href="single-news.jsp">Lemon</a></li>
+								<li><a href="single-news.jsp">Banana</a></li>
 							</ul>
 						</div>
 					</div>
@@ -302,11 +238,11 @@
 					<div class="footer-box pages">
 						<h2 class="widget-title">Pages</h2>
 						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="about.html">About</a></li>
-							<li><a href="services.html">Shop</a></li>
-							<li><a href="news.html">News</a></li>
-							<li><a href="contact.html">Contact</a></li>
+							<li><a href="index.jsp">Home</a></li>
+							<li><a href="about.jsp">About</a></li>
+							<li><a href="services.jsp">Shop</a></li>
+							<li><a href="news.jsp">News</a></li>
+							<li><a href="contact.jsp">Contact</a></li>
 						</ul>
 					</div>
 				</div>
@@ -314,7 +250,7 @@
 					<div class="footer-box subscribe">
 						<h2 class="widget-title">Subscribe</h2>
 						<p>Subscribe to our mailing list to get the latest updates.</p>
-						<form action="index.html">
+						<form action="index.jsp">
 							<input type="email" placeholder="Email">
 							<button type="submit"><i class="fas fa-paper-plane"></i></button>
 						</form>
