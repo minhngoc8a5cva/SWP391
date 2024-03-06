@@ -14,7 +14,7 @@ import java.util.List;
 
 /**
  *
- * @author ADMIN
+ * @author chau
  */
 public class ProductDAO {
 
