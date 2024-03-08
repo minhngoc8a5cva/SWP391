@@ -5,11 +5,11 @@ import java.sql.DriverManager;
 
 public class DBConnect {
 
-    private static final String serverName = "LAPTOP-B2F8BIR6\\CHAU";
+    private static final String serverName = "LAPTOP-GBH9K7O8";
     private static final String dbName = "ShopTraiCay";
     private static final String portNumber = "1433";
     private static final String userID = "sa";
-    private static final String password = "31122003";
+    private static final String password = "admin";
 
     /*USE BELOW METHOD FOR YOUR DATABASE CONNECTION FOR BOTH SINGLE AND MULTILPE SQL SERVER INSTANCE(s)*/
  /*DO NOT EDIT THE BELOW METHOD, YOU MUST USE ONLY THIS ONE FOR YOUR DATABASE CONNECTION*/

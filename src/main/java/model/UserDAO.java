@@ -11,7 +11,11 @@ import java.sql.ResultSet;
 
 /**
  *
+<<<<<<< HEAD
  * @author chau
+=======
+ * @author Duong Quoc Thai CE171563
+>>>>>>> fddff857e8a3d2c77eef59251d0912a71748b8b2
  */
 public class UserDAO {
     Connection conn = null;

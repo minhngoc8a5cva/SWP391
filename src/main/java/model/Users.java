@@ -11,7 +11,11 @@ import connect.DBConnect;
 
 /**
  *
+<<<<<<< HEAD
  * @author chau
+=======
+ * @author ADMIN
+>>>>>>> fddff857e8a3d2c77eef59251d0912a71748b8b2
  */
 public class Users {
 
